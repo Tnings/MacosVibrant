@@ -7,13 +7,13 @@
 #TabsToolbar,
 .table-widget-empty-text
 {
-    -moz-appearance: -moz-mac-vibrant-titlebar-light !important;
+    -moz-appearance: -moz-mac-source-list !important;
  }
 
 #TabsToolbar:-moz-lwtheme-brighttext,
 .table-widget-empty-text:-moz-lwtheme-brighttext
 {
-    -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
+    -moz-appearance: -moz-mac-source-list !important;
  }
 
 .tabbrowser-tab[selected="true"] .tab-label:-moz-lwtheme-brighttext
@@ -42,8 +42,8 @@
 #PersonalToolbar,
 #titlebar
 {
- -moz-appearance: -moz-mac-vibrant-titlebar-dark !important;
- -moz-font-smoothing-background-color: -moz-mac-vibrant-titlebar-dark !important;
+ -moz-appearance: -moz-mac-source-list !important;
+ -moz-font-smoothing-background-color: -moz-mac-source-list !important;
 }
 
 #TabsToolbar, #nav-bar, #PersonalToolbar {
@@ -117,7 +117,7 @@ tab[selected="true"] .tab-background {
 
     padding: 1px !important;
 
-    background: #404040 !important;
+    background: color:white !important !important;
     box-shadow: inset 0px 0px 1px 0px #e3e3e3 !important;
     border-radius: 30px !important;
     border-color: #1a1a1a !important;
@@ -225,4 +225,7 @@ tab[selected="true"] .tab-background {
   justify-content: center !important;
 }
 
-tab[pending], #alltabs-popup menuitem[pending] {background-color:  rgba(80, 80, 80,0.3)  !important;}
+tab[pending], #alltabs-popup menuitem[pending] {
+    background-color:  rgba(80, 80, 80,0.3)  !important;
+    border-radius: 30px !important;
+}
