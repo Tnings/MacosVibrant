@@ -117,7 +117,7 @@ tab[selected="true"] .tab-background {
 
     padding: 1px !important;
 
-    background: color:white !important;
+    background-color:white !important;
     box-shadow: inset 0px 0px 1px 0px #e3e3e3 !important;
     border-radius: 30px !important;
     border-color: #1a1a1a !important;
